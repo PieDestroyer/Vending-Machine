@@ -2,7 +2,12 @@
 public class VendingMachine
 	{
 
-	what is going on 
+	public static void main(String[] args) 
 	
-	
+	{
+		RAR
 	}
+	
+	
+	
+	}	
