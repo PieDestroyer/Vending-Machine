@@ -1,48 +1,27 @@
 //Yaroshan Code Block
 public class ProductManager
 	{
-	private Product p;
-	private int q;
-
-	public ProductManager(Product r, int w)
-		{
-		Product p = r;
-		int q = w;
-		}
-
-	public Product getP()
-		{
-		return p;
-		}
-
-	public int getQ()
-		{
-		return q;
-		}
-
-	public void setP(Product p)
-		{
-		this.p = p;
-		}
-
-	public void setQ(int q)
-		{
-		this.q = q;
-		}
+	private static String nextItemCode; 
+	private String itemCode; 
+	private Product product; 
+	private int quantity;
+	
 
 	public boolean vendItem()
 		{
-		for(Product p = 0; i < Product.p; Product.p++ )
+		for(Product p = 0; i < Product.; Product.p++ )
 			{
 			if(Product.p > 0)
 				return true;
 			else
-			System.out.println("The product you have selected is currently out of stock.");
+				System.out.println("The product you have selected is currently out of stock. Please select another choice.");
+			}
 		}
 
 	public java.lang.String getItemCode()
 		{
-		return Product.p;
+		System.out.println();
+		return Product.product;
 
 		}
 
