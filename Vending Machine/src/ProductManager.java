@@ -33,20 +33,22 @@ public class ProductManager
 	public boolean vendItem()
 		{
 		for(Product p = 0; i < Product.p; Product.p++ )
-		
-		return false;
-
+			{
+			if(Product.p > 0)
+				return true;
+			else
+			System.out.println("The product you have selected is currently out of stock.");
 		}
 
 	public java.lang.String getItemCode()
 		{
-		return p;
+		return Product.p;
 
 		}
 
 	public Product getProduct()
 		{
-		return p;
+		return Product.p;
 
 		}
 
