@@ -1,12 +1,51 @@
 
 public class Cashier
 	{
+	
+	static int value;
+	static int price;
+	
 
-	public static void main(String[] args)
-		{
-		// TODO Auto-generated method stub
-		//HI
-
-		}
+		public int[] addMoney(int value)
+			{
+			
+			
+			
+			}
+		
+		public int[] currentValue()
+			{
+			
+			
+			
+			}
+		
+		public void purchase(int price)
+			{
+			
+			
+			
+			}
+		
+		public java.lang.String returnChange(int[] money)
+			{
+			
+			
+			
+			}
+		
+		public static java.lang.String showCash(int[] money)
+			{
+			
+			
+			
+			}
+		
+		public static int toPennies(int[] value)
+			{
+			
+			
+			
+			}
 
 	}
