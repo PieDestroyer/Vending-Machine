@@ -5,32 +5,43 @@ public class InventoryManager {
 	static private ArrayList<ProductManager> allProducts;
 
 	static public void addProduct() {
-		allProducts.add(new ProductManager(Product.product, ProductManager.quantity));
+		allProducts.add(new ProductManager(-
+				+product, quantity));
 	}
 
-	public boolean attemptPurchase(String itemCode, int[] currentValue) {
-		
+	static public boolean attemptPurchase(String itemCode, int[] currentValue) {
+		if()
+		{
+			if(InventoryManager.isInStock(itemCode))
+			{
+				return true;
+			}
+		}
+		else
+			 return false;
+	}
+
+	static public ProductManager find(String itemCode) {
 
 	}
 
-	public ProductManager find(String itemCode) {
-
+	static public boolean isInStock(String itemCode) {
+		if (ProductManager.quantity == 0) {
+			return false;
+		} else
+			return false;
 	}
 
-	public boolean isInStock(String itemCode) {
-
+	static public boolean isValidItemCode(String itemCode) {
+		if(ProductManager.itemCode)
 	}
 
-	public boolean isValidItemCode(String itemCode) {
-
-	}
-
-	public ArrayList<ProductManager> listProducts() {
+	static public ArrayList<ProductManager> listProducts() {
 		return allProducts;
-		
+
 	}
 
-	public ArrayList<Product> productsByPrice(int[] price) {
+	static public ArrayList<Product> productsByPrice(int[] price) {
 
 	}
 }
