@@ -1,6 +1,8 @@
-
+import java.lang.Object;
+import java.*;
 public class Cashier
 	{
+	
 	
 	static int value;
 	static int price;
