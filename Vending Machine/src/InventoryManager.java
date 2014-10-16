@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 public class InventoryManager {
 
-	private ArrayList<ProductManager> allProducts;
+	static private ArrayList<ProductManager> allProducts;
 
-	public void addProduct() {
+	static public void addProduct() {
 		allProducts.add(new ProductManager(Product.product, ProductManager.quantity));
 	}
 
