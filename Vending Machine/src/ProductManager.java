@@ -1,10 +1,10 @@
 //Yaroshan Code Block
 public class ProductManager
 	{
-	static String nextItemCode; 
-	static String itemCode; 
-	static Product product; 
-	static int quantity;
+	static private String nextItemCode; 
+	static private String itemCode; 
+	static private Product product; 
+	static private int quantity;
 	
 
 	public boolean vendItem()
